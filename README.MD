@@ -1,4 +1,4 @@
-Face Recognition
+# Face Recognition
 Facial Recognition is an advanced technology that helps in identifying and verifying the human faces from an image, video or in real time. It is a category of biometric software that maps an everybody’s facial features mathematically and stores the data as a faceprint.  This system works by comparing selected features from given image with faces within a database. Facial Recognition system as a biometric technology used for the security systems. 
 # Getting started: -
 Facial recognition software uses Deep Learning algorithms to compares the information with the large databases of stored faces in order to identifies the correct identity.
