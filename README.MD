@@ -8,3 +8,9 @@ Facial recognition system can be used for a various application from security to
 Prerequisites: -
 
 Deployment: -
+
+# FaceNet
+The Facenet is pretrained model on face data for high level feature extraction. we have use it for face feautre extraction.
+To Download the facenet got to the link
+https://drive.google.com/file/d/1aT4DW6k1RqoRmMzCkmysc_qq33leJecF/view
+
