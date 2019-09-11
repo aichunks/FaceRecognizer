@@ -17,19 +17,18 @@ and place it in <b>models/<b> folder
 Train: -
 Collect the data of all persons you want to detect.
 you need to run it again and again to collect data of all person.
-'''
-python CollectData.py -name <name the person to colect data>
-''''
+```python CollectData.py -name <name the person to colect data>```
 Divide the data in train test split 
-''' python Train_val_split.py'''
+``` python Train_val_split.py```
 Prepair Data by reading the images and resize it
-'''python PrePaireData.py'''
+```python PrePaireData.py```
 Extrat The face Features
-''' python Feature_Extraction.py'''
+``` python Feature_Extraction.py```
 Train the svm model for classification and also learn person embading
-'''python TrainFaceRecoginzer.py'''
+```python TrainFaceRecoginzer.py```
 To Make Prediciton on Live Camera run
-'''python LivePrediction.py'''
+```python LivePrediction.py```
+
 
 
 
