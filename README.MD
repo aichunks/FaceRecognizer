@@ -7,10 +7,29 @@ There are various steps in which facial recognition system works firstly image i
 Facial recognition system can be used for a various application from security to advertisements.
 Prerequisites: -
 
-Deployment: -
 
 # FaceNet
 The Facenet is pretrained model on face data for high level feature extraction. we have use it for face feautre extraction.
 To Download the facenet got to the link
 https://drive.google.com/file/d/1aT4DW6k1RqoRmMzCkmysc_qq33leJecF/view
+and place it in <b>models/<b> folder
+
+Train: -
+Collect the data of all persons you want to detect.
+you need to run it again and again to collect data of all person.
+'''
+python CollectData.py -name <name the person to colect data>
+''''
+Divide the data in train test split 
+''' python Train_val_split.py'''
+Prepair Data by reading the images and resize it
+'''python PrePaireData.py'''
+Extrat The face Features
+''' python Feature_Extraction.py'''
+Train the svm model for classification and also learn person embading
+'''python TrainFaceRecoginzer.py'''
+To Make Prediciton on Live Camera run
+'''python LivePrediction.py'''
+
+
 
